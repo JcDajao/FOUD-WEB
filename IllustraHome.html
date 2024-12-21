@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Illustra</title>
+    <link rel="stylesheet" href="IllustraHome.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="bs/css/bootstrap.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/sweetalert2@11.15.2/dist/sweetalert2.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+            <div class="logo">
+                <a href="IllustraHome.html">
+                    <img src="Image/HomeImg/illlogo.png" alt="IllustraLogoHD">
+                </a>
+            </div>
+            <div class="nav-links">
+                <a href="IllustraHome.html">Home</a>
+                <a href="products.html">Products</a>
+                <a href="#contacts">Contacts</a>
+                <a href="#about">About Us</a>
+            </div>
+    </nav>
+
+    <!-- Main Content -->
+    <section class="home" id="Home">
+        <div class="home-section">
+            <h1>
+                    WELCOME 
+                  <br> TO <br>
+                  <img src="Image/HomeImg/ipc-logo.png" alt="ipc-logo">
+            </h1>
+            <div class="home-tagline">
+                <h2>
+                    "Paperbound Passions: Elevating Every Art Form"
+                </h2>
+            </div>
+            <div class="parallax">
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- Popular Products -->
+    <div class="products-section">
+        <h1>Popular Products</h1>
+
+        <div class="products-row">
+            <!-- Product 1 -->
+            <div class="product-item">
+                <figure>
+                    <a href="beadedkey.html">
+                        <img src="Image/ProductsImg/keychains.jpg" alt="keychains">
+                    </a>
+                    <figcaption>
+                        <b>Keychains</b>
+                    </figcaption>
+                </figure>
+            </div>
+
+            <!-- Product 2 -->
+            <div class="product-item">
+                <figure>
+                    <a href="magneticbook.html">
+                        <img src="Image/ProductsImg/bookmarks.jpg" alt="bookmarks">
+                    </a>
+                    <figcaption>
+                        <a href="magneticbook.html" class="product-link"><b>Bookmarks</b></a>
+                    </figcaption>
+                </figure>
+            </div>
+
+            <!-- Product 3 -->
+            <div class="product-item">
+                <figure>
+                    <img src="Image/ProductsImg/stickyer.jpg" alt="sticky notes">
+                    <figcaption>
+                        <b>Sticky Notes & Stickers</b>
+                    </figcaption>
+                </figure>
+            </div>
+        </div>
+
+        <div class="products-row">
+            <!-- Product 4 -->
+            <div class="product-item">
+                <figure>
+                    <a href="pnote.html">
+                        <img src="Image/ProductsImg/notebooks2.jpg" alt="notebooks">
+                    </a>
+                    <figcaption>
+                        <b>Notebooks</b>
+                    </figcaption>
+                </figure>
+            </div>
+
+            <!-- Product 5 -->
+            <div class="product-item">
+                <figure>
+                    <a href="customgbundle.html">
+                        <img src="Image/ProductsImg/sintrastandee.jpg" alt="gift bundle 1">
+                    </a>
+                    <figcaption>
+                        <b>Gift Bundle 1</b>
+                    </figcaption>
+                </figure>
+            </div>
+
+            <!-- Product 6 -->
+            <div class="product-item">
+                <figure>
+                    <a href="customgbundle.html">
+                        <img src="Image/ProductsImg/sintrastandee2.jpg" alt="gift bundle 2">
+                    </a>
+                    <figcaption>
+                        <b>Gift Bundle 2</b>
+                    </figcaption>
+                </figure>
+            </div>
+        </div>
+        <!-- Button to check products -->
+        <div class="button-box">
+            <a href="products.html" class="products-button">Check Our Products</a>
+        </div>
+    </div>
+
+    <!-- Contacts Section -->
+<div class="contacts-section" id="contacts">
+    <div class="contact-card">
+         <div class="contact-header">
+             <h2>Our Contacts:</h2>
+         </div>
+         <div class="contacts-info">
+             <div class="contact-box">
+                 <p class="contact-info"><i class="fa-solid fa-phone"></i>Contact Number: 0991-341-4778</p>
+                 <p class="contact-info"><i class="fa-solid fa-envelope"></i>E-mail: illustraprints7@gmail.com</p>
+                 <p class="contact-info"><i class="fa-solid fa-location-dot"></i>Address: Blk 22 Lot 1 MCDC Palawan Ave. cor <br> 
+                                                             Mindoro St. Brgy. Canlubang, Calamba Laguna, Philippines</p>
+                 <p class="contact-info"><i class="fa-brands fa-facebook"></i>Facebook Page: <a href="https://www.facebook.com/illustraprints7?mibextid=ZbWKwL">Illustra Prints and Crafts</a></p>
+             </div>
+ 
+             <!-- Feedback Form -->
+             <div class="Feedback-form">
+                 <h3>Feedback Form</h3>
+                     <form action="#" method="post" class="feedback-form" id="feedbackForm">
+                         <label for="name">Name:</label><input type="text" id="name" name="name" placeholder="Please enter your name" required>
+                         <label for="email">Email:</label><input type="email" id="email" name="email" placeholder="Enter your email" required>
+                         <label for="phone">Phone:</label><input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required>
+                         <label for="message">Comment/Message:</label><textarea id="message" name="message" rows="4" required></textarea>
+                         <button type="submit">Submit</button>
+                     </form>
+             </div>
+         </div>
+    </div>
+ </div>
+ 
+ <!-- About Section -->
+ <div id="about" class="about-section">
+      <h1>About Illustra Prints and Crafts</h1>
+      <p>
+         Illustra Prints brings you vibrant branding that blends retro-vibe inspiration with a modern twist, designed to captivate today's generation. Explore our range of magnetic bookmarks, stickers, and notebooks, each crafted to add a touch of artistic flair to your everyday essentials.
+      </p><br/>
+ </div>
+
+    <!-- Footer section -->
+    <div class="footer">
+        <p>&copy; 2024 Illustra Prints and Crafts. All rights reserved.</p>
+        <a href="ourteam.html">Developed by FOUD WEB</a>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="IllustraHome.js">
+    </script>
+</body>
+</html>

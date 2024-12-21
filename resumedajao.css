@@ -1,0 +1,188 @@
+/* Body style */
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #faebd7;
+}
+
+/* A4 like container */
+.A4-Paper{
+    width: 21cm;
+    height: 29.7cm;
+    margin: 20px auto; 
+    padding: 10px; 
+    background-color: #c4d1e7; 
+    box-shadow: 0 0 10px rgba(0,0,0,0.1); 
+    border-radius: 5px;
+}
+
+/* Main content of resume */
+.resume-content{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+/* Start of the content(Profile) */
+.profile-header{
+    display: flex;
+    align-items: center;
+}
+
+.profile-picture{
+    width: 30%;
+    vertical-align: top;
+}
+
+.profile-picture img{
+    padding: 20px;
+    width: 2in;
+    height: 2in;
+}
+
+.profile-name{
+    width: 70%;
+    vertical-align: top;
+}
+
+.profile-name h1{
+    text-align: center;
+    padding: 19px;
+    color: #2980b9; 
+    font-size: 32px; 
+    margin-top: 45px;
+    margin-bottom: 10px;
+}
+
+.profile-name h2{
+    text-align: center;
+    letter-spacing: 3px;
+    color: #383c41; 
+    font-size: 24px; 
+    margin-top: 5px;
+}
+
+/* Styling for the divider of each section */
+.divider {
+    border: none;
+    border-top: 2px solid #2980b9;
+}
+
+
+/* Start of the styling details*/
+.contact-professional,
+.skills-education,
+.languages-work-experience{
+    display: flex;
+}
+
+.contact-info{
+    vertical-align: top;
+    width: 30%;
+}
+
+.contact-info h2{
+    font-family: 'Raleway', sans-serif;
+    color: #2980b9;
+    font-size: 24px;
+    margin-top: 5px;
+}
+
+.professional-profile{
+    width: 70%;
+    vertical-align: top;
+}
+
+.professional-profile h2{
+    font-family: 'Raleway', sans-serif;
+    color: #2980b9; 
+    font-size: 24px; 
+    margin-top: 5px; 
+    line-height: 18px; 
+    padding-top: 4.5px;
+}
+
+.professional-profile p{
+    text-align: justify;
+    padding-inline-end: 31px;
+}
+
+.skills-info{
+    width: 30%; 
+    vertical-align: top;
+}
+
+.skills-info h2{
+    font-family: 'Raleway', sans-serif;
+    color: #2980b9; 
+    font-size: 24px; 
+    margin-top: 5px;
+}
+
+.skills-info ul{
+    list-style-type: disc;
+    padding-left: 0;
+}
+
+.skills-info li{
+    margin: 15px;
+    margin-left: 20px;
+}
+
+.education-info{
+    width: 70%; 
+    vertical-align: top;
+}
+
+.education-info h2{
+    font-family: 'Raleway', sans-serif;
+    color: #2980b9; 
+    font-size: 24px; 
+    margin-top: 5px;
+}
+
+.education-info h2{
+    word-spacing: 1px;
+    line-height: 20px;
+}
+
+.languages{
+    width: 30%; 
+    vertical-align: top;
+}
+
+.languages h2{
+    font-family: 'Raleway', sans-serif;
+    color: #2980b9; 
+    font-size: 24px; 
+    margin-top: 5px;
+}
+
+.languages ul{
+    list-style-type: disc;
+    padding-left: 5px;
+}
+
+.languages li{
+    margin: 15px;
+    margin-left: 20px;
+}
+
+.work-experience{
+    width: 70%;
+    vertical-align: top;
+}
+
+.work-experience h2{
+    font-family: 'Raleway', sans-serif;
+    color: #2980b9; 
+    font-size: 24px; 
+    margin-top: 5px;
+}
+
+.work-experience p{
+    text-align: justify;
+    word-spacing: 1px;
+    line-height: 20px;
+    margin-right: 25px;
+}
